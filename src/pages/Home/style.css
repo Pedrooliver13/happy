@@ -17,7 +17,7 @@
   max-height: 680px;
   height: 100%;
 
-  background: url('../../images/Ilustra02.svg')no-repeat 90% center;
+  background: url('../../images/Ilustra02.svg')no-repeat 80% center/ contain;
   
   display: flex;
   align-items: flex-start;
@@ -80,6 +80,6 @@
   transition: background-color .3s ease-in-out;
 }
 
-.enter-app:hover,.enter-app:focus {
+.enter-app:hover,.enter-app:focus{
   background-color: #96FEFF;
 } 

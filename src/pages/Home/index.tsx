@@ -9,7 +9,9 @@ export default function Home() {
     <div id="page-home">
       <div className="content-wrapper">
         <header className="menu">
-          <img src={Logo} alt="Logo da marca"/>
+          <a href="/">
+            <img src={Logo} alt="Logo da marca"/>
+          </a>
 
           <div className="menu__location">
             <strong>Arapoti</strong>
@@ -23,7 +25,7 @@ export default function Home() {
         </main>
 
         <a href="/" className="enter-app">
-          <FiArrowRight size={32} color="#8D734B"/>
+          <FiArrowRight size={32} color="rgba(0, 0, 0, 0.7)"/>
         </a>
       </div>
     </div>
