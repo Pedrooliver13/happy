@@ -1,0 +1,85 @@
+#page-home {
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-wrapper {
+  position: relative;
+  max-width: 1100px;
+  width: 100%;
+  
+  max-height: 680px;
+  height: 100%;
+
+  background: url('../../images/Ilustra02.svg')no-repeat 90% center;
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content-wrapper .menu {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu .menu__location {
+  text-align: right;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #fff;
+}
+
+.menu .menu__location strong {
+  font-weight: 900;
+}
+
+.content-wrapper main {
+  max-width: 380px;
+}
+
+.content-wrapper main h1 {
+  font-weight: 900;
+  font-size: 76px;
+  line-height: 70px;
+}
+.content-wrapper main p {
+  margin-top: 40px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: lighter;
+}
+
+
+/* button */
+.enter-app {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  width: 80px;
+  height: 80px;
+  background-color: #FFD666;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color .3s ease-in-out;
+}
+
+.enter-app:hover,.enter-app:focus {
+  background-color: #96FEFF;
+} 
