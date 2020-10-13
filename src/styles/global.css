@@ -7,9 +7,15 @@
 body {
   background-color: #ebf2f5;
   color: #fff;
+
+}
+a {
+  text-decoration: none;
 }
 
 body, input, label, button {
+  font-size: 18px;
   font-weight: 600;
   font-family: 'Nunito', sans-serif;
+  text-decoration: none;
 }
