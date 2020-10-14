@@ -1,8 +1,9 @@
-import React from 'react';
-import { FiArrowRight } from 'react-icons/fi';
-import './style.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import { FiArrowRight } from "react-icons/fi";
+import "./style.css";
 
-import Logo from '../../images/Logo.svg';
+import Logo from "../../images/Logo.svg";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <div className="content-wrapper">
         <header className="menu">
           <a href="/">
-            <img src={Logo} alt="Logo da marca"/>
+            <img src={Logo} alt="Logo da marca" />
           </a>
 
           <div className="menu__location">
@@ -24,10 +25,10 @@ export default function Home() {
           <p>visite orfanatos e mude o dia de muitas crianças.</p>
         </main>
 
-        <a href="/" className="enter-app">
-          <FiArrowRight size={32} color="rgba(0, 0, 0, 0.7)"/>
-        </a>
+        <Link to="/map" className="enter-app">
+          <FiArrowRight size={32} color="rgba(0, 0, 0, 0.7)" />
+        </Link>
       </div>
     </div>
-  )
+  );
 }
